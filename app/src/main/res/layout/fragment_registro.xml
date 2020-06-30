@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistroFragment"
+    android:background="@drawable/fondo">
+
+    <View
+        android:id="@+id/cuadroBlanco_registro"
+        android:layout_width="288dp"
+        android:layout_height="427dp"
+        android:background="#5EFFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView_logo_registro"
+        android:layout_width="200dp"
+        android:layout_height="170dp"
+        android:layout_marginTop="44dp"
+        android:src="@drawable/ic_logoapp"
+        app:layout_constraintEnd_toEndOf="@+id/cuadroBlanco_registro"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="@+id/cuadroBlanco_registro"
+        app:layout_constraintTop_toTopOf="@+id/cuadroBlanco_registro"
+        />
+
+    <Button
+        android:id="@+id/button_registro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="@string/boton_registro"
+        android:textColor="#FFF"
+        app:layout_constraintEnd_toEndOf="@+id/cuadroBlanco_registro"
+        app:layout_constraintStart_toStartOf="@+id/cuadroBlanco_registro"
+        app:layout_constraintTop_toBottomOf="@+id/editText_contrasena_registro" />
+
+    <TextView
+        android:id="@+id/textView_cancelar_registro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cancelar"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="@+id/cuadroBlanco_registro"
+        app:layout_constraintStart_toStartOf="@+id/cuadroBlanco_registro"
+        app:layout_constraintTop_toBottomOf="@+id/button_registro" />
+
+    <EditText
+        android:id="@+id/editText_usuario_registro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/introduce_usuario"
+        app:layout_constraintEnd_toEndOf="@+id/cuadroBlanco_registro"
+        app:layout_constraintStart_toStartOf="@+id/cuadroBlanco_registro"
+        app:layout_constraintTop_toBottomOf="@+id/imageView_logo_registro" />
+
+    <EditText
+        android:id="@+id/editText_mail_registro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:hint="@string/introduce_mail"
+        app:layout_constraintEnd_toEndOf="@+id/cuadroBlanco_registro"
+        app:layout_constraintStart_toStartOf="@+id/cuadroBlanco_registro"
+        app:layout_constraintTop_toBottomOf="@+id/editText_usuario_registro" />
+
+    <EditText
+        android:id="@+id/editText_contrasena_registro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="@string/introduce_contrasena"
+        app:layout_constraintEnd_toEndOf="@+id/cuadroBlanco_registro"
+        app:layout_constraintStart_toStartOf="@+id/cuadroBlanco_registro"
+        app:layout_constraintTop_toBottomOf="@+id/editText_mail_registro" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

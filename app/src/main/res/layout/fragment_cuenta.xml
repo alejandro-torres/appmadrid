@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.cuenta.CuentaFragment" >
+
+    <TextView
+        android:id="@+id/textView_usuarioCuenta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/usuarioCuenta"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_nombreUsuarioCuenta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:text="TextView"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView_usuarioCuenta"
+        app:layout_constraintStart_toEndOf="@+id/textView_usuarioCuenta"
+        app:layout_constraintTop_toTopOf="@+id/textView_usuarioCuenta" />
+
+    <TextView
+        android:id="@+id/textView_mailCuenta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/mailCuenta"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_usuarioCuenta" />
+
+    <TextView
+        android:id="@+id/textView_tuMailCuenta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:text="TextView"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView_mailCuenta"
+        app:layout_constraintStart_toEndOf="@+id/textView_mailCuenta"
+        app:layout_constraintTop_toTopOf="@+id/textView_mailCuenta" />
+
+    <TextView
+        android:id="@+id/textView_cambioUsuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="44dp"
+        android:text="@string/cambioUsuario"
+        android:textColor="@color/colorAccent"
+        android:textColorHighlight="@color/colorAccent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_mailCuenta" />
+
+    <TextView
+        android:id="@+id/textView_cambioPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="@string/cambioPassword"
+        android:textColor="@color/colorAccent"
+        app:layout_constraintStart_toStartOf="@+id/textView_cambioUsuario"
+        app:layout_constraintTop_toBottomOf="@+id/textView_cambioUsuario" />
+
+    <TextView
+        android:id="@+id/textView_cambioMail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="@string/cambioMail"
+        android:textColor="@color/colorAccent"
+        app:layout_constraintStart_toStartOf="@+id/textView_cambioPassword"
+        app:layout_constraintTop_toBottomOf="@+id/textView_cambioPassword" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">MadridCultura</string>
+
+    <string name="boton_inicio">INICIO</string>
+    <string name="boton_registro">REGISTRO</string>
+    <string name="slogan">¡Explora todo lo que Madrid tiene para ti!</string>
+    <string name="introduce_usuario">Usuario</string>
+    <string name="introduce_contrasena">Contraseña</string>
+    <string name="introduce_mail">Mail</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="busqueda_titulo">Título</string>
+
+    <string name="guion_fecha">-</string>
+
+    <string name="nav_header_title">Nombre usuario</string>
+    <string name="menu_inicio">Inicio</string>
+    <string name="menu_buscar">Buscar</string>
+    <string name="menu_cuenta">Cuenta</string>
+
+
+    <string name="usuarioCuenta">Usuario:</string>
+    <string name="mailCuenta">Mail:</string>
+    <string name="cambioUsuario">Cambiar nombre de usuario</string>
+    <string name="cambioPassword">Cambiar contraseña</string>
+    <string name="cambioMail">Cambiar email de registro</string>
+
+    <string name="nuevoMail">Nuevo Mail</string>
+    <string name="nuevoUsuario">Nuevo Usuario</string>
+    <string name="usuarioActual">Usuario Actual</string>
+    <string name="usuarioCambio">Usuario</string>
+    <string name="nuevaPass">Nueva Contraseña</string>
+    <string name="passActual">Contraseña Actual</string>
+    <string name="passCambio">Contraseña</string>
+
+
+    <string name="title_activity_aplicacion">AplicacionActivity</string>
+    <string name="home_second">Home Second</string>
+
+
+</resources>
